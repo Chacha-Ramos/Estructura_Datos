@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"limits": "cpp",
+			"*.tcc": "cpp",
+			"type_traits": "cpp",
+			"cstdio": "c"
+		}
+	}
+}
