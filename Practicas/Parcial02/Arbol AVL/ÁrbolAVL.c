@@ -246,9 +246,9 @@ while(1){
             scanf("%d",&dato);
             q = buscar(dato,p);
             if(q != NULL) 
-                printf("Se encontró el dato %d",dato); 
+                printf("Se encontro el dato %d",dato); 
             else 
-                printf("No se encontró el dato %d",dato); 
+                printf("No se encontro el dato %d",dato); 
         break;
         case 'r':
             printf("Recorrido en Pre-Orden:"); 

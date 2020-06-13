@@ -6,7 +6,7 @@
 int main(){
 
     int TOTAL = 0, GRUPOS = 0;
-    printf("Combinaciones sin repetición de n objetos tomados de k en k\n");
+    printf("Combinaciones sin repeticion de n objetos tomados de k en k\n");
     printf("Para salir del programa digite 1010\n");
     do{
     printf("Ingrese el numero total de elementos\n");
@@ -17,7 +17,7 @@ int main(){
     if(TOTAL == 1010 || GRUPOS == 1010)
         break;
 
-    printf("El numero total de grupos de tamano %i es %i", GRUPOS, recursiva(TOTAL, GRUPOS));
+    printf("El numero total de grupos de tamano %i es %i\n", GRUPOS, recursiva(TOTAL, GRUPOS));
     }while(true);
     return 0; 
 }
