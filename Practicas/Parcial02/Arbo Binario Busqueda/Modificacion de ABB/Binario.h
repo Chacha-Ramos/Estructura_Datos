@@ -20,6 +20,18 @@ void Hermano(int);
 void Hijo_Izq(int);
 void Hijo_Der(int);
 
+void ver(int nivel,Nodo *p){
+int i;
+if(p != NULL) {
+    ver(nivel + 1,p -> der);
+    printf("\n");
+    for(i = 0;i < nivel;i++) 
+    printf("	");
+    printf("%d",p -> info); 
+    ver(nivel + 1,p -> izq);
+}
+}
+
 bool Insertar(int dato){
     Nodo* nuevo;
     int nivel = 1;
@@ -65,8 +77,7 @@ bool Modify(int old, int new){
 }
 
 bool Find(int dato){
-    Nodo * anterior, * head;
-    anterior = NULL;
+    Nodo  * head, * anterior;
     head = raiz;
     int i = 0;
     while (head != NULL)
@@ -254,16 +265,4 @@ void Hijo_Der(int dato){
 
 Nodo* Apuntador(){
     return raiz;
-}
-
-void ver(int nivel,Nodo *p){
-int i;
-if(p != NULL) {
-    ver(nivel + 1,p -> der);
-    printf("\n");
-    for(i = 0;i < nivel;i++) 
-    printf("	");
-    printf("%d",p -> info); 
-    ver(nivel + 1,p -> izq);
-}
 }
