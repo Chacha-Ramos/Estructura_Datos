@@ -310,11 +310,11 @@ class mymap {
     //
 
     void _buildString(NODE * current, ostream & out) {
-        NODE * cLeft = current->left;
-        NODE * cRight = (current->isThreaded) ? nullptr : current->right;
         if (current != nullptr) {
+            NODE * cLeft = current->left;
+            NODE * cRight = (current->isThreaded) ? nullptr : current->right;
             _buildString(cLeft, out);
-            out << "key: " << current->key << " value: " << current->value;
+            out << "key: " << current->key << " value: " << current->value << " ";
             _buildString(cRight, out);
         }
     }

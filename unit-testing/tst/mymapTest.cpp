@@ -3,9 +3,13 @@
 
 TEST(mymap, Calculate) {
     mymap<int, string> t1;
-    EXPECT_EQ(t1.Size(), 0);
-    t1[4] = "hello world";
-    EXPECT_EQ(t1.Size(), 1);
-    EXPECT_EQ(t1.contains(4), true);
-    EXPECT_EQ(t1.get(4), "hello world");
+    for (int i = 0; i < 10; i++) {
+        t1.put(i, "a");
+    }
+    for (int i = 0; i < 10; i++) {
+        EXPECT_EQ(t1[i], "A");
+    }
+    for (int i = 10; i < 20; i++) {
+        EXPECT_FALSE(t1.contains(i));
+    }
 }
