@@ -361,7 +361,6 @@ class mymap {
         _buildString(root, ss);
         return (ss.str());
     }
-
     //
     // toVector:
     //
@@ -371,12 +370,8 @@ class mymap {
     // threaded, self-balancing BST
     //
     vector<pair<keyType, valueType> > toVector() {
-
-
-        // TODO: write this function.
-
-
-        return {};  // TODO: Update this return.
+        NODE * current = root;
+        while (current !)
     }
     void _buildBalance(NODE * current, ostream & out) {
         if (current != nullptr) {
