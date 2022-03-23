@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libunit_testing_lib.a CMakeFiles/unit_testing_lib.dir/main.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libunit_testing_lib.a
