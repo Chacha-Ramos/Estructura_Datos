@@ -5,7 +5,7 @@
 		<Option title="gmock"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\googletests\;CMake Files\lib\googletests\googlemock\;CMake Files\lib\googletests\googlemock\cmake\;CMake Files\lib\googletests\googletest\;CMake Files\lib\googletests\googletest\cmake\;CMake Files\src\;CMake Files\tst\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\tst\;CMake Files\lib\;CMake Files\lib\googletests\;CMake Files\lib\googletests\googlemock\;CMake Files\lib\googletests\googlemock\cmake\;CMake Files\lib\googletests\googletest\;CMake Files\lib\googletests\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug/lib/googletests/googlemock"/>
@@ -225,6 +225,12 @@
 		<Unit filename="/Users/salva/Documents/Programming/Data Structures/Project 5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/Users/salva/Documents/Programming/Data Structures/Project 5/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/salva/Documents/Programming/Data Structures/Project 5/tst/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tst\"/>
+		</Unit>
 		<Unit filename="/Users/salva/Documents/Programming/Data Structures/Project 5/lib/googletests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletests\"/>
 		</Unit>
@@ -251,12 +257,6 @@
 		</Unit>
 		<Unit filename="/Users/salva/Documents/Programming/Data Structures/Project 5/lib/googletests/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletests\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/Users/salva/Documents/Programming/Data Structures/Project 5/src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\src\"/>
-		</Unit>
-		<Unit filename="/Users/salva/Documents/Programming/Data Structures/Project 5/tst/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\tst\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

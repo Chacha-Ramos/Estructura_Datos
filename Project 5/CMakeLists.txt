@@ -1,6 +1,6 @@
 # root CMAKE
 cmake_minimum_required(VERSION 3.17)
-project(unit_testing)
+project(Project_5)
 
 set(CMAKE_CXX_STANDARD 14)
 

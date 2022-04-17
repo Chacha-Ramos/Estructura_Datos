@@ -77,6 +77,26 @@ install/local/fast: preinstall/fast
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -110,26 +130,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 .PHONY : list_install_components/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug/CMakeFiles" "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug/tst//CMakeFiles/progress.marks"
@@ -162,25 +162,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tst/CMakeFiles/unit_testing_tst.dir/rule:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/unit_testing_tst.dir/rule
-.PHONY : tst/CMakeFiles/unit_testing_tst.dir/rule
+tst/CMakeFiles/Project_5_tst.dir/rule:
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/Project_5_tst.dir/rule
+.PHONY : tst/CMakeFiles/Project_5_tst.dir/rule
 
 # Convenience name for target.
-unit_testing_tst: tst/CMakeFiles/unit_testing_tst.dir/rule
-.PHONY : unit_testing_tst
+Project_5_tst: tst/CMakeFiles/Project_5_tst.dir/rule
+.PHONY : Project_5_tst
 
 # fast build rule for target.
-unit_testing_tst/fast:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/unit_testing_tst.dir/build.make tst/CMakeFiles/unit_testing_tst.dir/build
-.PHONY : unit_testing_tst/fast
+Project_5_tst/fast:
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Project_5_tst.dir/build.make tst/CMakeFiles/Project_5_tst.dir/build
+.PHONY : Project_5_tst/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/unit_testing_tst.dir/build.make tst/CMakeFiles/unit_testing_tst.dir/main.cpp.o
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Project_5_tst.dir/build.make tst/CMakeFiles/Project_5_tst.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -188,7 +188,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/unit_testing_tst.dir/build.make tst/CMakeFiles/unit_testing_tst.dir/main.cpp.i
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Project_5_tst.dir/build.make tst/CMakeFiles/Project_5_tst.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -196,7 +196,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/unit_testing_tst.dir/build.make tst/CMakeFiles/unit_testing_tst.dir/main.cpp.s
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Project_5_tst.dir/build.make tst/CMakeFiles/Project_5_tst.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mymapTest.o: mymapTest.cpp.o
@@ -204,7 +204,7 @@ mymapTest.o: mymapTest.cpp.o
 
 # target to build an object file
 mymapTest.cpp.o:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/unit_testing_tst.dir/build.make tst/CMakeFiles/unit_testing_tst.dir/mymapTest.cpp.o
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Project_5_tst.dir/build.make tst/CMakeFiles/Project_5_tst.dir/mymapTest.cpp.o
 .PHONY : mymapTest.cpp.o
 
 mymapTest.i: mymapTest.cpp.i
@@ -212,7 +212,7 @@ mymapTest.i: mymapTest.cpp.i
 
 # target to preprocess a source file
 mymapTest.cpp.i:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/unit_testing_tst.dir/build.make tst/CMakeFiles/unit_testing_tst.dir/mymapTest.cpp.i
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Project_5_tst.dir/build.make tst/CMakeFiles/Project_5_tst.dir/mymapTest.cpp.i
 .PHONY : mymapTest.cpp.i
 
 mymapTest.s: mymapTest.cpp.s
@@ -220,7 +220,7 @@ mymapTest.s: mymapTest.cpp.s
 
 # target to generate assembly for a file
 mymapTest.cpp.s:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/unit_testing_tst.dir/build.make tst/CMakeFiles/unit_testing_tst.dir/mymapTest.cpp.s
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Project_5_tst.dir/build.make tst/CMakeFiles/Project_5_tst.dir/mymapTest.cpp.s
 .PHONY : mymapTest.cpp.s
 
 # Help Target
@@ -235,7 +235,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... unit_testing_tst"
+	@echo "... Project_5_tst"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

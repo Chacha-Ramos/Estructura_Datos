@@ -101,15 +101,6 @@ install/fast: preinstall/fast
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -129,6 +120,15 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -162,40 +162,40 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/unit_testing_run.dir/rule:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/unit_testing_run.dir/rule
-.PHONY : src/CMakeFiles/unit_testing_run.dir/rule
+src/CMakeFiles/Project_5_lib.dir/rule:
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Project_5_lib.dir/rule
+.PHONY : src/CMakeFiles/Project_5_lib.dir/rule
 
 # Convenience name for target.
-unit_testing_run: src/CMakeFiles/unit_testing_run.dir/rule
-.PHONY : unit_testing_run
+Project_5_lib: src/CMakeFiles/Project_5_lib.dir/rule
+.PHONY : Project_5_lib
 
 # fast build rule for target.
-unit_testing_run/fast:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_run.dir/build.make src/CMakeFiles/unit_testing_run.dir/build
-.PHONY : unit_testing_run/fast
+Project_5_lib/fast:
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_lib.dir/build.make src/CMakeFiles/Project_5_lib.dir/build
+.PHONY : Project_5_lib/fast
 
 # Convenience name for target.
-src/CMakeFiles/unit_testing_lib.dir/rule:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/unit_testing_lib.dir/rule
-.PHONY : src/CMakeFiles/unit_testing_lib.dir/rule
+src/CMakeFiles/Project_5_run.dir/rule:
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Project_5_run.dir/rule
+.PHONY : src/CMakeFiles/Project_5_run.dir/rule
 
 # Convenience name for target.
-unit_testing_lib: src/CMakeFiles/unit_testing_lib.dir/rule
-.PHONY : unit_testing_lib
+Project_5_run: src/CMakeFiles/Project_5_run.dir/rule
+.PHONY : Project_5_run
 
 # fast build rule for target.
-unit_testing_lib/fast:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_lib.dir/build.make src/CMakeFiles/unit_testing_lib.dir/build
-.PHONY : unit_testing_lib/fast
+Project_5_run/fast:
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_run.dir/build.make src/CMakeFiles/Project_5_run.dir/build
+.PHONY : Project_5_run/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_run.dir/build.make src/CMakeFiles/unit_testing_run.dir/main.cpp.o
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_lib.dir/build.make src/CMakeFiles/unit_testing_lib.dir/main.cpp.o
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_lib.dir/build.make src/CMakeFiles/Project_5_lib.dir/main.cpp.o
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_run.dir/build.make src/CMakeFiles/Project_5_run.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -203,8 +203,8 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_run.dir/build.make src/CMakeFiles/unit_testing_run.dir/main.cpp.i
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_lib.dir/build.make src/CMakeFiles/unit_testing_lib.dir/main.cpp.i
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_lib.dir/build.make src/CMakeFiles/Project_5_lib.dir/main.cpp.i
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_run.dir/build.make src/CMakeFiles/Project_5_run.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -212,8 +212,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_run.dir/build.make src/CMakeFiles/unit_testing_run.dir/main.cpp.s
-	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_lib.dir/build.make src/CMakeFiles/unit_testing_lib.dir/main.cpp.s
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_lib.dir/build.make src/CMakeFiles/Project_5_lib.dir/main.cpp.s
+	cd "/Users/salva/Documents/Programming/Data Structures/Project 5/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_run.dir/build.make src/CMakeFiles/Project_5_run.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -228,8 +228,8 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... unit_testing_lib"
-	@echo "... unit_testing_run"
+	@echo "... Project_5_lib"
+	@echo "... Project_5_run"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

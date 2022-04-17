@@ -162,43 +162,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named unit_testing_run
+# Target rules for targets named Project_5_lib
 
 # Build rule for target.
-unit_testing_run: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unit_testing_run
-.PHONY : unit_testing_run
+Project_5_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project_5_lib
+.PHONY : Project_5_lib
 
 # fast build rule for target.
-unit_testing_run/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_run.dir/build.make src/CMakeFiles/unit_testing_run.dir/build
-.PHONY : unit_testing_run/fast
+Project_5_lib/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_lib.dir/build.make src/CMakeFiles/Project_5_lib.dir/build
+.PHONY : Project_5_lib/fast
 
 #=============================================================================
-# Target rules for targets named unit_testing_lib
+# Target rules for targets named Project_5_run
 
 # Build rule for target.
-unit_testing_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unit_testing_lib
-.PHONY : unit_testing_lib
+Project_5_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project_5_run
+.PHONY : Project_5_run
 
 # fast build rule for target.
-unit_testing_lib/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/unit_testing_lib.dir/build.make src/CMakeFiles/unit_testing_lib.dir/build
-.PHONY : unit_testing_lib/fast
+Project_5_run/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Project_5_run.dir/build.make src/CMakeFiles/Project_5_run.dir/build
+.PHONY : Project_5_run/fast
 
 #=============================================================================
-# Target rules for targets named unit_testing_tst
+# Target rules for targets named Project_5_tst
 
 # Build rule for target.
-unit_testing_tst: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unit_testing_tst
-.PHONY : unit_testing_tst
+Project_5_tst: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project_5_tst
+.PHONY : Project_5_tst
 
 # fast build rule for target.
-unit_testing_tst/fast:
-	$(MAKE) $(MAKESILENT) -f tst/CMakeFiles/unit_testing_tst.dir/build.make tst/CMakeFiles/unit_testing_tst.dir/build
-.PHONY : unit_testing_tst/fast
+Project_5_tst/fast:
+	$(MAKE) $(MAKESILENT) -f tst/CMakeFiles/Project_5_tst.dir/build.make tst/CMakeFiles/Project_5_tst.dir/build
+.PHONY : Project_5_tst/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -264,13 +264,13 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Project_5_lib"
+	@echo "... Project_5_run"
+	@echo "... Project_5_tst"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... unit_testing_lib"
-	@echo "... unit_testing_run"
-	@echo "... unit_testing_tst"
 .PHONY : help
 
 

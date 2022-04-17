@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Project_5_tst.dir/tests.cpp.o"
-  "CMakeFiles/Project_5_tst.dir/tests.cpp.o.d"
+  "CMakeFiles/Project_5_tst.dir/main.cpp.o"
+  "CMakeFiles/Project_5_tst.dir/main.cpp.o.d"
+  "CMakeFiles/Project_5_tst.dir/mymapTest.cpp.o"
+  "CMakeFiles/Project_5_tst.dir/mymapTest.cpp.o.d"
   "Project_5_tst"
   "Project_5_tst.pdb"
 )
