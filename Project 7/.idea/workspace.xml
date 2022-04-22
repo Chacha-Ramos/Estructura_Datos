@@ -3,7 +3,7 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+  <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="Project_7" targetName="gtest" />
       <config projectName="Project_7" targetName="Project_7_run" />
@@ -20,79 +20,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be4d2951-8da8-497c-b2a4-c8f97b51a853" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Project 6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/.idea/Project 6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/src/medium.txt.huf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/src/medium_unc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/src/mymap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/src/secretmessage.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/src/secretmessage.txt.huf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project 6/src/secretmessage_unc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Project 7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b8e6d494a53f56e0b781.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-40953a88ae8ae8456ecc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/.cmake/api/v1/reply/directory-lib.googletests.googlemock-Debug-ecd58a02aa725cf67459.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/.cmake/api/v1/reply/directory-lib.googletests.googletest-Debug-1c1202cb216fc923ddb3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-21T20-40-05-0279.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/.cmake/api/v1/reply/target-unit_testing_lib-Debug-d81cf8de6c537b7b0dde.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/.cmake/api/v1/reply/target-unit_testing_run-Debug-161dfcf51969f9ad22b0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/.cmake/api/v1/reply/target-unit_testing_tst-Debug-c52b7d3738f250febd85.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/Project_5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/Project_5.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/CMakeFiles/gmock.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/CMakeFiles/gmock.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/gmock.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googlemock/gmock.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest-distribution.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest/CMakeFiles/gtest_main.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest/CMakeFiles/gtest_main.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/lib/googletests/googletest/gtest.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_lib.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/Project_5_run.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/unit_testing_run.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/CMakeFiles/unit_testing_run.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/Project_5_tst.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/unit_testing_tst.dir/mymapTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/CMakeFiles/unit_testing_tst.dir/mymapTest.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/unit_testing_tst" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/cmake-build-debug/tst/unit_testing_tst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/src/mymap.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/src/mymap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project 5/tst/mymapTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 5/tst/mymapTest.cpp" afterDir="false" />
+    <list default="true" id="be4d2951-8da8-497c-b2a4-c8f97b51a853" name="Changes" comment="Project 7">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map.osm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uic.osm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uiuc.osm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tst/testing.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 5/src/mymap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 5/src/myrandom.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 5/tst/mymapTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 6/src/mymap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 6/src/secretmessage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Project 6/src/secretmessage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +53,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -115,33 +70,49 @@
     <option name="minorVersion" value="3.4" />
   </component>
   <component name="ProjectId" id="27u0JS2DHu2QRi8UMFepVS5Re6S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="cf.first.check.clang-format" value="false" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Project_7_tst" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project_7" TARGET_NAME="Project_7_tst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project_7" RUN_TARGET_NAME="Project_7_tst" TEST_MODE="SUITE_TEST">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/salvadortranquilino-ramos/Library/Mobile Documents/com~apple~CloudDocs/Documents/Programming/Data Structures/Project 7 copy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  }
+}</component>
+  <component name="RunManager" selected="CMake Application.Project_7_run">
+    <configuration name="case1.graph" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project_7" TARGET_NAME="Project_7_tst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project_7" RUN_TARGET_NAME="Project_7_tst" TEST_CLASS="case1" TEST_METHOD="graph" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Project_7_run" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project_7" TARGET_NAME="Project_7_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project_7" RUN_TARGET_NAME="Project_7_run">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Application.Project_7_run" />
+        <item itemvalue="Google Test.case1.graph" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -153,8 +124,28 @@
       <updated>1650154591756</updated>
       <workItem from="1650154593033" duration="4118000" />
       <workItem from="1650163308992" duration="145000" />
-      <workItem from="1650163467488" duration="5093000" />
+      <workItem from="1650163467488" duration="10549000" />
+      <workItem from="1650174456405" duration="5100000" />
+      <workItem from="1650251625525" duration="7233000" />
+      <workItem from="1650292986895" duration="41000" />
+      <workItem from="1650414643759" duration="13000" />
+      <workItem from="1650472761110" duration="125000" />
+      <workItem from="1650484493322" duration="10000" />
+      <workItem from="1650484569473" duration="2560000" />
+      <workItem from="1650498214765" duration="1141000" />
+      <workItem from="1650500106054" duration="5472000" />
+      <workItem from="1650515539359" duration="102000" />
+      <workItem from="1650564089891" duration="20518000" />
+      <workItem from="1650602410698" duration="1000" />
     </task>
+    <task id="LOCAL-00001" summary="Project 7">
+      <created>1650168643198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650168643198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,5 +161,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Project 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project 7" />
   </component>
 </project>
